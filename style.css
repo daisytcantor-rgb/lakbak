@@ -839,4 +839,51 @@ a:hover {
     padding: 24px;
     font-size: 17px;
   }
+  /* --- BIG LOGO, LARGE HEADINGS, AND FAQ STYLES --- */
+
+.brand-mark-big {
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  margin-right: 12px;
+  border-radius: 50%;
+  background: #f6a53a;
+  color: #173f57;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 65px;
+  text-align: center;
+  vertical-align: middle;
+  border: 4px solid #173f57;
+}
+
+.brand-name-big {
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: #173f57;
+}
+
+.huge-title {
+  font-size: 48px !important;
+  font-weight: bold;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+h1, h2 {
+  letter-spacing: 0.5px;
+}
+
+.faq-answer {
+  display: none;
+  padding: 0 40px 18px 0;
+  color: #526977;
+}
+
+.faq-answer.open {
+  display: block;
+}
+
 }
